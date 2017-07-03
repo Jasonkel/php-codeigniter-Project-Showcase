@@ -1,0 +1,1580 @@
+
+@charset "UTF-8";
+/* -- CCS for all Pages with same Tag -- 
+		Jason Kelly		
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color:#3F3E3E;
+	line-height: 1;
+	font-family:Open Sans;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+	background-color: #000;
+	height: 135px;
+}
+
+.page{
+	background-color:#E0DDD8;
+	width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header h3{
+color: #fff;
+float:left;
+margin-left: 70px;
+font-size: 18pt;
+font-weight:normal;
+font-style:italic;
+font-family:Roboto;
+margin-top: 30px;
+text-align:right;
+
+}
+header img{
+	float:left;
+	margin-left: 124px;
+	margin-top: 10px;
+}
+header .textLogo{
+	float:right;
+	margin-right:124px;
+	margin-left: -100px;
+}
+nav{
+	background-color: #C45836;
+	height: 50px;
+	
+	padding-top:10px;
+	padding-bottom:-10px;
+}
+
+a {
+	text-decoration:none;
+	color: #E4E4E4;
+}
+nav  a{
+	text-decoration:none;
+	color: #E4E4E4;
+	font-family:Open Sans;
+	font-size: 22pt;
+	margin-left: 40px;
+	padding-top: 25px;
+}
+nav a:hover{
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #fff;
+}
+.home{
+	font-weight: bold;
+}
+
+
+footer{
+	font-family:Open Sans;
+	font-size:9pt;
+	color: #fff;
+	background-color:#000;
+	height:119px;
+	bottom:0px;
+	
+	
+	
+}
+.exploreMenu{
+	float:left;
+	margin-left:100px;
+	width:340px;
+}
+.exploreMenu .footerMenu {
+	margin-top:20px;
+}
+.exploreMenu .footerMenu a{
+	text-decoration:none;
+	color: #E4E4E4;
+	font-family:Open Sans;
+	font-size: 9pt;
+	margin-left: 40px;
+	padding-top: 20px;
+}
+.exploreMenu h3{
+	margin-top:20px;
+	margin-left:100px;
+	font-weight: bold;
+}
+.exploreMenu p{
+	margin-top:30px;
+	margin-left:70px;
+}
+.exploreMenu .footerMenu a:hover{
+	
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #fff;
+	
+}
+
+
+.socialMedia{
+	width:340px;
+	float:left;
+	margin-left:-10px;
+}
+.socialMedia h3{
+	font-weight: bold;
+	margin-top:20px;
+	margin-left:160px;
+}
+.socialMedia .twitterLogo{
+	margin-top:20px;
+	margin-left:130px;
+}
+.socialMedia .faceBookLogo{
+	margin-top:20px;
+	margin-left:50px;
+}
+
+.litAddress{
+	width:340px;
+	font-size: 9pt;
+	margin-right:-50px;
+	margin-top:20px;
+	float:right;
+	
+}
+.litAddress h3{
+	font-weight: bold;
+}
+.litAddress p{
+	margin-top:18px;
+	
+}
+.litAddress .litLogo{
+	padding-left:130px;
+	margin-top:-23px;
+	width:50px;
+	height:auto;
+	
+}
+.mainHome{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+}
+.main{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+	
+}
+.loginMain{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+}
+.mainGallery{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+	
+}
+.registerMain{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+}
+.menuHolder{
+	margin-left:84px;
+	
+}
+.menuLogin{
+	float:right;
+	margin-right:124px;
+	
+}
+
+.welcome{
+	width: 600px;
+	height:338px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family:Open Sans;
+	color: #fff;
+}
+.welcome a:hover{
+	width: 211px;
+	height: 76px;
+}
+.welcome h2{
+	font-style:normal;
+	font-size:23pt;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+.welcome p{
+	margin-top:10px;
+	margin-left: 50px;
+	font-size:19pt;
+	margin-right:20px;
+	
+}
+.welcome .readMore{
+	background-color:#C45836;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	width: 210px;
+	height: 75px;
+	float:right;
+	margin-top:30px;
+	margin-right:25px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+}
+
+.student_work{
+	margin-left: -2px;
+	width: 350px;
+	height:338px;
+	background-color: #fff;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-top: 20px;
+	color: #fff;
+	
+	background-size: 550px auto;
+	background-position: -40px -20px;
+		
+}
+.student_work p{
+	font-size:14pt;
+	font-family:Open Sans;
+	color: #FFF8FD;
+	display:inline-block;
+	margin-top: 280px;
+	margin-left: 100px;
+	background-color: rgba(127,127,127,.6);
+
+	padding:6px;
+	
+}
+
+.student_work a:hover{
+	color: #68C0FC;
+}
+
+.news{
+	width: 315px;
+	height:298px;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 20px;
+	margin-top: -2px;
+	background-image: url(http://penandpixel.ie/img/fb_header.jpg);
+	background-size: 420px auto;
+	background-position: -210px -5px;
+}
+
+.event{
+	width: 315px;
+	height:298px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: -2px;
+	margin-top: -2px;
+	background-image: url(https://smartertravel.limerick.ie/sites/default/files/T.png);
+	background-size: 520px auto;
+	background-position: -100px -2px;
+	
+}
+.contactH{
+	font-size:25pt;
+	width: 315px;
+	height:147px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: -2px;
+	margin-top: -2px;
+	font-family:Open Sans;
+	color: #fff;
+}
+.contactH  a:hover{
+	width: 148px;
+	height: 56px;
+}
+.contactH .contactButton{
+	font-size:19pt;
+	background-color:#C45836;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	width: 147px;
+	height: 55px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+	float:right;
+	margin-right:20px;
+	margin-top: 15px;
+}
+
+.contactH .contactButton h2{
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.contactH  h1{
+	padding-top: 20px;
+	margin-left:20px;
+}
+.createAccount{
+	font-size:25pt;
+	width: 315px;
+	height:147px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: -2px;
+	margin-top: -2px;
+	font-family:Open Sans;
+	color: #fff;
+}
+.createAccount  a:hover{
+	width: 192px;
+	height: 56px;
+}
+.createAccount  h1{
+	padding-top: 20px;
+	margin-left:20px;
+}
+.createAccount .createButton{
+	font-size:19pt;
+	background-color:#C45836;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	width: 191px;
+	height: 55px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+	float:right;
+	margin-right:20px;
+	margin-top: 15px;
+}
+.createAccount .createButton h2{
+	margin-left: 8px;
+	margin-top: 12px;
+}
+/*--End of Index CSS*/
+.sendEmail{
+	background-color:#C45836;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	width: 100px;
+	height: 25px;
+	padding: 5px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+	
+}
+/*--Start of gallery CSS*/
+
+.galleryMenu{
+	margin-top: 260px;
+	width: 776px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.galleryMenu .web, .video, .design, .threeD{
+	width:184px;
+	height:72px;
+	float: left;
+	margin-right: 10px;
+	border-bottom: 3px solid;
+	border-color: white;
+	
+
+}
+.galleryMenu .web{
+	background-image: url("../img/webImage.png");
+	background-size: 184px 560px;
+	
+}
+.galleryMenu .video{
+	background-image: url("../img/videoImage.png");
+	background-size: 184px 560px;
+	
+}
+.galleryMenu .threeD{
+	background-image: url("../img/threeDImage.png");
+	background-size: 184px 560px;
+	
+}
+.galleryMenu .design{
+	background-image: url("../img/designImage.png");
+	background-size: 184px 560px;
+	
+}
+.galleryMenu .web:hover{
+	height: 560px;
+	margin-top: -210px;
+	
+}
+
+.galleryMenu .video:hover{
+	height: 560px;
+	margin-top: -210px;
+}
+
+.galleryMenu .design:hover{
+	height: 560px;
+	margin-top: -210px;
+}
+
+.galleryMenu .threeD:hover{
+	height: 560px;
+	margin-top: -210px;
+}
+
+	
+.galleryMenu  h2{
+	background-color: #eac26d;
+	width: 200px;
+	color: white;
+	font-size: 20pt;
+	text-align: center;
+	padding-bottom: 7px;
+}
+
+/*--End of gallery CSS*/
+/*--Start of galleryWeb CSS*/
+.galleryMain{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+	
+}
+.filterMenu{
+	background-color: #eac26d;
+	width: 198px;
+	height: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 18pt;
+	
+}
+.filterMenu h2{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.filterMenu a{
+	font-size: 15pt;
+	margin-left: 25px;
+	color: #fff;
+}
+.workContainer{
+	width: 730px;
+	height: auto;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #C45836;
+	float:left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.breadCrumbs{
+	margin-top: 5px;
+	padding-bottom:5px;
+	margin-left: 20px;
+}
+.breadCrumbs a{
+	color: #0F65BA;
+}
+.filterMenu a:hover{
+	color: #5D5D5D;
+}
+#pagination{
+color:#000;
+font-size: 15pt;
+margin-left: auto;
+margin-right:auto;
+width:100px;
+}
+
+.work{
+	float:left;
+	width: 214px;
+	height: 225px;
+	margin-left: 23px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+/*--Start of galleryWeb CSS*/
+/*--Start of sign Up CSS*/
+.signUp{
+	background-color: #eac26d;
+	margin-left:50px;
+	margin-top: 20px;
+	width:900px;
+	height: 620px;
+	
+}
+.signUp p{
+	margin-left:150px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 18pt;
+}
+.signUp p input{
+	background-color: #FBF3E2;
+	border: none;
+	height:25px;
+	margin-top: 4px;
+	
+}
+
+.signUp .leftInput{
+	padding-top: 20px;
+}
+.signUp .rightInput #button{
+	
+	background-color: #c45836;
+    height: 45px;
+    width: 150px;
+	margin-top: 20px;
+	margin-left:170px;
+	font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt;
+    
+}
+
+.leftInput{
+	float:left;
+	
+}
+
+.leftInput #firstName, #lastName, #userName, #password, #location, #email{
+	background-color: #F1DDB5;
+	height: 30px;
+	width: 200px;
+	
+}
+
+
+
+.leftInput p{
+	padding-left: 20px;
+}
+/*-----------------------*/
+.deleteAccount{
+	background-color: #c45836;
+    height: 45px;
+    width: 150px;
+	font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt; 
+	padding: 5px;
+	margin-left: 50px;
+	
+}
+
+.mainEditProfile{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 10px 11px -2px rgba(0,0,0,0.54);
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+	
+}
+.editRightInput{
+	float:right;
+	padding-top: 20px;
+	margin-right: 160px;
+}
+.editRightInput #socialMediaLink, #skill, #userfile{
+	background-color: #F1DDB5;
+	height: 30px;
+	width:200px;
+}
+
+.editRightInput #about{
+	height: 100px;
+	width: 200px;
+	border: none;
+	resize: none;
+	margin-top: 3px;
+	background-color: #F1DDB5;
+}
+
+.editRightInput #profileButton{
+	margin-left: 0px;
+	background-color: #fff;
+	border: none;
+	width: 100px;
+	height: 30px;
+	font-size: 15pt;
+	margin-top: 3px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+}
+.editRightInput #profileButton:hover{
+	background-color:#AFAAAA;
+	width: 105px;
+	height: 35px;
+}
+.editRightInput p select{
+   width: 200px;
+   padding: 5px;
+   font-size: 15px;
+   line-height: 1;
+ background-color: #F1DDB5;
+   height: 30px;
+   -webkit-appearance: none;
+}
+.signUp .editRightInput #button{
+	
+	background-color: #c45836;
+    height: 45px;
+    width: 150px;
+	margin-top: 20px;
+	margin-left:170px;
+	font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt;
+    
+}
+/*-----------------------*/
+.rightInput{
+	float:right;
+	padding-top: 20px;
+	margin-right: 160px;
+}
+.rightInput #socialMediaLink, #skill, #userfile{
+	background-color: #F1DDB5;
+	height: 30px;
+	width:200px;
+}
+
+.rightInput #about{
+	height: 100px;
+	width: 200px;
+	border: none;
+	resize: none;
+	margin-top: 4px;
+	background-color: #F1DDB5;
+}
+.rightInput #profileButton{
+	margin-left: 0px;
+	background-color: #fff;
+	border: none;
+	width: 100px;
+	height: 30px;
+	font-size: 15pt;
+	margin-top: 3px;
+	box-shadow: 4px 3px 6px -1px rgba(0,0,0,0.75);
+}
+.rightInput #profileButton:hover{
+	background-color:#AFAAAA;
+	width: 105px;
+	height: 35px;
+}
+.rightInput p select{
+   width: 200px;
+   padding: 5px;
+   font-size: 15px;
+   line-height: 1;
+	background-color: #F1DDB5;
+   height: 30px;
+   -webkit-appearance: none;
+}
+.leftInput p select{
+   width: 200px;
+   padding: 5px;
+   font-size: 15px;
+   line-height: 1;
+	background-color: #F1DDB5;
+   height: 30px;
+   -webkit-appearance: none;
+}
+
+#userfile{
+	color: #000;
+}
+
+/*--End of sign Up CSS*/
+/*--End of Jasons CSS--*/
+
+/*----------Ciaran----------About----------------------*/
+
+
+.mainAbout{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 33px #000000;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+}
+.jobHeader {
+	color: #E5AD32;
+	font-size:22px;
+	padding:5px;
+	margin-left:10px;
+}
+
+.aboutHeaders {
+	color: white;
+	font-size:25px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#contact-form {
+	color:white;
+    width: 300px;
+    padding:10px;
+    margin-bottom: 5px;    
+
+}
+
+#contact-form h1 {
+	color: white;
+    font-size:25px;
+}
+ 
+#contact-form h2 {
+    margin-top: -50px;
+    margin-bottom:2px;
+    font-style:italic;
+    font-weight:normal;
+}
+ 
+#contact-form input,  
+#contact-form textarea, 
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+}
+ 
+#contact-form input,  
+#contact-form textarea {
+    width:350px;
+    margin-bottom:2px;
+    padding:4px;
+}
+
+ 
+#contact-form textarea {
+    height:50px;
+    resize: none;
+}
+ 
+#contact-form label {
+    display:block;
+}
+ 
+#contact-form .required {
+    font-weight:bold;
+    color:#F00; 
+    float: right;   
+}
+ 
+#contact-form #submit-button {
+    width: 100px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+
+    margin-bottom:-20px;
+    background-color:#8FB5C1;
+    border-radius:8px;
+}
+ 
+#contact-form #submit-button:hover {
+    background-color: #A6CFDD;
+}
+
+.programme{
+	width: 585px;
+	height:200px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.contactA{
+	width: 585px;
+	height:150px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-top: -3px;
+	margin-bottom: -3px;
+}
+
+.message{
+	width: 585px;
+	height:300px;
+	background-color: #eac26d;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+
+.job {
+	margin-right: 50px;
+	width: 250px;
+	height:401px;
+	background-color: #F4F4F4;
+	float:right;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #eac26d;
+	margin-top: 23px;
+}
+
+.jobContent {
+	font-family:Open Sans;
+	font-size: .85em;
+	margin-left: 15px;
+	line-height: 125%;
+}
+
+.studentSayContent {
+	font-family:Open Sans;
+	font-size: .85em;
+	margin-left: 15px;
+	line-height: 115%;
+}
+
+.studentSayContent img {
+	margin-right: 10px;
+	float: left;
+}
+
+.studentSayImage {
+	background-image:url("../img/StudentsSayPic.jpg");
+	float:left;
+	margin-right:10px;
+	background-size: 60px 60px;
+	margin-left: 15px;
+	height: 60px;
+	width:60px;
+}
+
+
+.programmeContent {
+	font-family:Open Sans;
+	font-size: 1em;
+	margin-left: 15px;
+	line-height: 115%;
+}
+
+.studentSay {
+	margin-top: -3px;
+	margin-left: 58px;
+	width: 250px;
+	height:217px;
+	background-color: #F4F4F4;
+	float:left;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #eac26d;
+	margin-right: 35px;
+}
+
+.aboutContentHeaders {
+	font-family:Open Sans;
+	font-size: 1.2em;
+	line-height: 125%;
+}	
+
+.aboutContent {
+	line-height: 150%;
+}
+/*----------------------------------------------------*/
+/*--------Steven-------------UserProfile-------------------------------*/
+.mainProfile_userView{
+	background-color: #F4F4F4;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 33px #000000;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	
+}
+
+.studentWork {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	position: relative;
+	margin-left: 22.5px;
+	margin-top: 6px;
+	
+}
+
+.deleteWork{
+	width: 20px;
+	height: 20px;
+	float: right;
+	opacity: 0;
+	color: white;
+	-webkit-transition: opacity .75s ease-out;
+	-moz-transition: opacity .75s ease-out;
+	-o-transition: opacity .75s ease-out;
+	transition: opacity .75s ease-out;
+}
+
+.caption {
+	height: 30px;
+	width: 210px;
+	position:absolute;
+	margin-top:100px;
+	background-color: #C45836;
+	padding-bottom: 20px;
+	color: white;
+	font-style: bold;
+	opacity: 0;
+	-webkit-transition: opacity .75s ease-out;
+	-moz-transition: opacity .75s ease-out;
+	-o-transition: opacity .75s ease-out;
+	transition: opacity .75s ease-out;
+}
+.caption  a{
+	padding-left: 5px;
+}
+.like{
+	width: 50px;
+	height: auto;
+}
+.studentWork:hover .deleteWork {
+	
+	opacity: .7;
+	
+}
+.studentWork:hover .caption {
+	
+	opacity: 1;
+	
+}
+
+.textTopLeft {
+	display: inline-block;
+	font-size: .75em;
+	margin-left: 45px;
+}
+
+.textGalleryPic {
+	font-family: 'Open Sans';
+	font-size: .75em;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: white;
+}
+
+.studentPicText {
+	font-family: 'Open Sans';
+	font-size: .8em;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: black;
+}
+
+.profilePic {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+span1 {
+	color:blue;
+}
+.like{
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	
+}
+.studentPic{
+	width: 175px;
+	height:193px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-top: 9px;
+	margin-bottom: -4px;
+}
+.profilePic{
+	width: 155px;
+	height: 115px;
+	background-color: #000;
+}
+.studentPicUserVeiw{
+	width: 175px;
+	height:193px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-top: 25px;
+	margin-bottom: -3px;
+}
+
+.galleryBoxes{
+	float: left;
+	width: 205px;
+	height:200px;
+	background-color: #C45836;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.studentAbout{
+	width: 175px;
+	height:80px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-top: 2px;
+	margin-bottom: -3px;
+}
+
+.studentSoftware{
+	width: 175px;
+	height:80px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-bottom: -3px;
+}
+
+.studentUpload{
+	width: 175px;
+	height:120px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-bottom: -4px;
+}
+
+.studentUpload img{
+	width: 70px;
+	height:70px;
+	margin-left: 50px;
+	margin-top: 15px;
+	
+}
+
+.studentEdit{
+	width: 175px;
+	height:120px;
+	background-color: #eac26d;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+
+.studentEdit img{
+	width: 70px;
+	height:70px;
+	margin-left: 50px;
+	margin-top: 15px;
+}
+
+.studentGallery {
+	margin-right: 30px;
+	width: 715px;
+	height: 695px;
+	background-color: white;
+	float:right;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #eac26d;
+	margin-top: 28px;
+}
+
+.profileHeaders {
+	color:white;
+	font-size:1em;
+	margin-left: 10px;
+	
+}
+
+.aboutHeader {
+	font-size: 1em;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+}
+
+.studentPicHeader {
+	font-size: 1em;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: white;
+}
+
+.softwareHeader {
+	font-size: 1em;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+}
+
+.aboutText{
+    font-family: Open Sans;
+    font-size: .8em;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: black;
+}
+
+.softwareText{
+    font-family: 'Open Sans';
+	font-size: .8em;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: black;
+}
+/*-----------------------------------------*/
+/*--Start of click into work page ---------- Robert*/
+
+.usersWork{
+	width: 582px;
+	height: auto;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #C45836;
+	margin-left: 30px;
+	margin-top: 23px;
+	float: left;
+}
+
+.commentBox{
+	height: 642px;
+	margin-top: 23px;
+	border: 3px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.commentHeader{
+    height: 78px;
+    border: 1px, solid, black;
+    width: 312px;
+	background-color: #eac26d;
+	float: right;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+	
+}
+
+.newCommentBox{
+	width: 312px;
+	height: 233px;
+    border-color: white;
+    border-style: solid;
+    border-bottom-width: 2px;
+}
+
+.commentBox ,.newCommentBox{
+	width: 312px;
+	background-color: #eac26d;
+	float: right;
+	margin-right: 30px;
+    
+}
+
+.commentBox p{
+	font-family:'Open Sans';
+    font-style:condensed;
+	font-size: 27pt;
+	color: white;
+	margin-top: 25px;
+	text-align: left;
+    margin-left: 20px;
+}
+
+.newCommentBox p{
+	font-family:'Open Sans';
+    font-style:condensed;
+	font-size: 12pt;
+	color: white;
+	margin-top: 10px;
+	text-align: left;
+    margin-left: 20px;
+}
+
+.workDescription{
+    
+    height: 79px;
+    margin-left: 30px;
+    margin-top: 14px;
+	margin-bottom:20px;
+}
+
+.workDescriptionTitle{
+    height: 30px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.workDescription ,.workDescriptionTitle ,.workDescriptionDetails{
+    width: 588px;
+    float: left;
+    background-color: #c45836;  
+}
+
+.newCommentBox input {
+    width: 255px;
+    margin-left: 28.5px;
+    border: none;
+}
+
+.newCommentBox input[name="submitButton"] {
+    background-color: #c45836;
+    height: 35px;
+    width: 255px;
+    margin-top: 10px;
+    
+}
+.newCommentBox input[type="submit"] {
+    font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt;
+    
+}
+
+.newCommentBox input[name="displayName"] {
+    height: 28px;
+    background-color: #F1DDB5;
+}
+
+.newCommentBox input[name="comment"] {
+    height: 88px;
+    background-color: #F1DDB5;
+}
+
+::-webkit-input-placeholder {
+   color: #878787;
+}
+
+.workDescriptionTitle ,.workDescriptionDetails p{
+    font-family:'Open Sans';
+    font-style:condensed;
+    margin-top: 7px;
+	padding-left: 10px;
+    color: #f9f9f9;
+	width:578px;
+}
+
+.workDescriptionDetails{
+	height: 40px;
+	border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+}
+
+/*--End of click into work page ---------- Robert*/
+
+
+
+/*--Start of Upload work page ---------- Robert*/
+
+.insideUploadMain{
+	background-color: #eac26d;
+	width: 800px;
+	height: 600px;
+	margin-left: 90px;
+	margin-top: 50px;
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.insideUploadMain h2{
+	font-family:'Open Sans';
+    font-style:condensed;
+    font-size: 40px;
+    margin-top: 7px;
+    color: #f9f9f9;
+    margin-left: 200px;
+}
+
+.insideUploadMain input[name="title"] {
+    height: 40px;
+    width: 400px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+	border: 0;
+}
+
+.insideUploadMain #description {
+    height: 100px;
+    width: 400px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+
+	border: none;
+	resize: none;
+	
+}
+
+.insideUploadMain select{
+	margin-top: 6px;
+    height: 40px;
+    width: 400px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+}
+.insideUploadMain #userfileUpload{
+	margin-top: 10px;
+	height: 40px;
+    width: 400px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+}
+
+.insideUploadMain input[name="submitUploadButton"] {
+    background-color: #c45836;
+    height: 45px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.insideUploadMain input[type="submit"] {
+    font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt;
+    margin-left: 200px;
+    
+}
+.insideLoginMain input[name="submitUploadButton"] {
+    background-color: #c45836;
+    height: 45px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.insideLoginMain input[type="submit"] {
+    font-family: 'Open Sans';
+    color: #f9f9f9;
+    font-size: 15pt;
+    margin-left: 200px;
+    
+}
+
+
+/*--end of Upload work page ---------- Robert*/
+
+.insideLoginMain input[name="email"] {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+}
+
+.insideLoginMain input[name="password"] {
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: #F1DDB5;
+    margin-left: 200px;
+    margin-bottom: 10px;
+
+}
+
+.insideLoginMain{
+	background-color: #eac26d;
+	width: 800px;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 90px;
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.insideLoginMain h2{
+	font-family:'Open Sans';
+    font-style:condensed;
+    font-size: 40px;
+    margin-top: 150px;
+    color: #f9f9f9;
+    margin-left: 200px;
+}
+
+
+.insideLoginMain h3{
+	font-family:'Open Sans';
+    font-style:condensed;
+    font-size: 40px;
+
+    color: #f9f9f9;
+    margin-left: 200px;
+}
+/*---------end of rob-----*/
+@-moz-document url-prefix() {
+		
+	
+}
